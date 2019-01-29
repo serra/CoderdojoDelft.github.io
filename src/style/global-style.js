@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
-import { COLOR } from './variables';
+import { color } from './variables';
+import { rebasNeue } from './fonts/rebas-neue';
 
 export const GlobalStyle = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -52,10 +53,12 @@ table {
 	border-spacing: 0;
 }
 
+${rebasNeue()};
+
 body {
     font-family: Arial, Helvetica, Tahoma, san-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: ${COLOR.white.smoke};
+    background-color: ${color.white.smoke};
 }
 `;

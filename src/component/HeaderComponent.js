@@ -1,16 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Header = styled.header`
-    text-align: center;
+const BackToHome = styled.a`
+    display: block;
+`;
+
+const Logo = styled.img`
+    display: block;
+    width: 100%;
+    max-width: 570px;
+    height: auto;
 `;
 
 export function HeaderComponent() {
     return (
-        <Header>
-            <a href="/">
-                <img src="/img/logo.png" alt="Coder Dojo Delft" />
-            </a>
-        </Header>
+        <header>
+            <BackToHome href="/">
+                <Logo src="/img/logo.png" alt="Coder Dojo Delft" />
+            </BackToHome>
+        </header>
     );
 }
