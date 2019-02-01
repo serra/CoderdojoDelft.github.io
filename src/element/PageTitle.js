@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { breakpoint, color, font, whitespace } from '../style/variables';
+import { color, font, whitespace } from '../style/variables';
 
 export const PageTitle = styled.h1`
     padding: ${whitespace.n2} ${whitespace.n3};
