@@ -48,6 +48,7 @@ const Link = styled(NavLink)`
     text-decoration: none;
     text-align: right;
     
+    &:hover,
     &.active {
         background-color: ${color.yellow.selective};
         color: ${color.white.white};
@@ -64,6 +65,7 @@ const Close = styled.a`
     top: 0;
     display: block;
     margin: ${whitespace.n4};
+    cursor: pointer;
     
     @media only screen and (min-width: ${breakpoint.md}px) {
         display: none;
@@ -76,6 +78,7 @@ const Open = styled.a`
     top: 0;
     display: block;
     margin: ${whitespace.n4};
+    cursor: pointer;
     
     @media only screen and (min-width: ${breakpoint.md}px) {
         display: none;

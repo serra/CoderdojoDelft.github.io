@@ -47,4 +47,9 @@ export const PageBody = styled.div`
         color: ${color.grey.charcoal};
         text-decoration: underline;
     }
+    
+    ul {
+        padding-left: 15px;
+        list-style-type: disc;
+    }
 `;
