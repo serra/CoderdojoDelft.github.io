@@ -22,9 +22,9 @@ export class ExtraInfoPage extends Component {
                     <h2>Is CoderDojo geschikt voor mijn kind?</h2>
                     <p>Wij verwelkomen iedereen! Echter merken we dat vooral kinderen die interesse hebben in techniek blijven hangen en het naar hun zin hebben. We behandelen steeds een ander onderwerp, dus kijk samen met je zoon / dochter naar het onderwerp om te kijken of ze het interessant vinden om hier meer over te leren.</p>
                     <h2>Hoe kan ik mijn kind inschrijven?</h2>
-                    <p>Voor elke dojo (datum en vestiging) moet afzonderlijk geregistreerd worden. Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als je als groep een CoderDojo wil doen, neem dan liever eerst contact met ons op (info@coderdojo-delft.nl).</p>
+                    <p>Voor elke dojo (datum en vestiging) moet afzonderlijk geregistreerd worden. Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als je als groep een CoderDojo wil doen, neem dan liever eerst contact met ons op (<a href="mailto:info@coderdojo-delft.nl">info@coderdojo-delft.nl</a>).</p>
                     <h2>Ik heb me aangemeld, maar ik kan toch niet komen, wat nu?</h2>
-                    <p>Heb je een ticket en kun je toch niet komen, laat het ons dan zo snel mogelijk weten via info@coderdojo-delft.nl. We kunnen dan weer iemand anders blij maken. </p>
+                    <p>Heb je een ticket en kun je toch niet komen, laat het ons dan zo snel mogelijk weten via <a href="mailto:info@coderdojo-delft.nl">info@coderdojo-delft.nl</a>. We kunnen dan weer iemand anders blij maken. </p>
                     <h2>Moet ik al mijn kinderen apart inschrijven?</h2>
                     <p>Ja, om er voor te zorgen dat we niet over onze capaciteit gaan en een goede administratie van aanwezigen hebben, moet iedereen zich registreren om deel te kunnen nemen aan een CoderDojo.</p>
                     <h2>Wat moet ik meenemen?</h2>

@@ -25,26 +25,26 @@ const Nav = styled.nav`
     @media only screen and (min-width: ${breakpoint.md}px) {
         flex-shrink: 0;
         flex-grow: 1;
-        margin-right: ${whitespace[2]}px;
+        margin-right: ${whitespace.n2};
         text-align: right;
     }
 `;
 
 const List = styled.ul`
-    padding: ${whitespace[6]}px ${whitespace[3]}px;
+    padding: ${whitespace.n5} ${whitespace.n3};
     
     @media only screen and (min-width: ${breakpoint.md}px) {
-        padding: ${whitespace[2]}px ${whitespace[0]}px ${whitespace[2]}px ${whitespace[2]}px;
+        padding: ${whitespace.n2} ${whitespace.n0} ${whitespace.n2} ${whitespace.n2};
     }
 `;
 
 const Link = styled(NavLink)`
     display: inline-block;
-    padding: ${whitespace[2]}px;
+    padding: ${whitespace.n1} ${whitespace.n2};
     color: ${color.black.black};
     font-family: 'Bebas Neue W01 Regular';
-    font-size: ${font.size[0]}px;
-    line-height: ${font.line[0]};
+    font-size: ${font.size.n0};
+    line-height: ${font.line.n0};
     text-decoration: none;
     text-align: right;
     
@@ -54,7 +54,7 @@ const Link = styled(NavLink)`
     }
     
     @media only screen and (min-width: ${breakpoint.md}px) {
-        font-size: ${font.size[1]}px;
+        font-size: ${font.size.n1};
     }
 `;
 
@@ -63,7 +63,7 @@ const Close = styled.a`
     right: 0;
     top: 0;
     display: block;
-    margin: ${whitespace[4]}px;
+    margin: ${whitespace.n4};
     
     @media only screen and (min-width: ${breakpoint.md}px) {
         display: none;
@@ -75,7 +75,7 @@ const Open = styled.a`
     right: 0;
     top: 0;
     display: block;
-    margin: ${whitespace[4]}px;
+    margin: ${whitespace.n4};
     
     @media only screen and (min-width: ${breakpoint.md}px) {
         display: none;

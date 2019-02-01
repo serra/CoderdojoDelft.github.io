@@ -13,9 +13,6 @@ import { routes } from './routes';
 import { ExtraInfoPage } from './page/ExtraInfoPage';
 import { AboutUsPage } from './page/AboutUsPage';
 
-
-
-
 export class App extends Component {
     render() {
         return (

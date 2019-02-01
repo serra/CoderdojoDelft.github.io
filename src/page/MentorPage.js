@@ -25,7 +25,7 @@ export class MentorPage extends Component {
                     </ul>
                     <h3>Aanmelden</h3>
                     <p>Heb jij ook nog eens veel geduld en ben je kindvriendelijk?</p>
-                    <h2><a href="https://docs.google.com/forms/d/1MFSfIiJ98OUiN8yZC5_GIxQKEZeeM4Q1jDVstpo31RA/viewform?c=0&amp;w=1&amp;usp=mail_form_link" target="_blank">Meld je aan!</a></h2>
+                    <h2><a href="https://docs.google.com/forms/d/1MFSfIiJ98OUiN8yZC5_GIxQKEZeeM4Q1jDVstpo31RA/viewform?c=0&amp;w=1&amp;usp=mail_form_link">Meld je aan!</a></h2>
                 </PageBody>
             </Page>
         );
