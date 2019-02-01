@@ -103,6 +103,18 @@ export class MenuComponent extends Component {
     }
 
     render() {
+        const sortedRouteKeys = Object.keys(routes).sort((a , b) => {
+            if (routes[a].weight < routes[b].weight) {
+                return -1;
+            }
+
+            if (routes[a].weight > routes[b].weight) {
+                return 1;
+            }
+
+            return 0;
+        });
+
         return (
             <React.Fragment>
                 <Open onClick={this.handleOpen}>
@@ -113,12 +125,15 @@ export class MenuComponent extends Component {
                         <OcticonComponent name="x" />
                     </Close>
                     <List onClick={this.handleClose}>
-                        <li>
-                            <Link exact to={routes.home} activeClassName="active">Home</Link>
-                        </li>
-                        <li>
-                            <Link exact to={routes.nextEdition} activeClassName="active">Volgende editie</Link>
-                        </li>
+                        {
+                            sortedRouteKeys.map((route, index) => {
+                                return (
+                                    <li key={index}>
+                                        <Link exact to={routes[route].url} activeClassName="active">{routes[route].title}</Link>
+                                    </li>
+                                );
+                            })
+                        }
                     </List>
                 </Nav>
             </React.Fragment>

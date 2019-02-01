@@ -20,7 +20,7 @@ export class HomePage extends Component {
                     <h3>Activiteiten</h3>
                     <p>We organiseren een CoderDojo op:</p>
                     <p><strong>{nextEdition.date}</strong></p>
-                    <p>Kijk op onze pagina <Link to={routes.nextEdition}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
+                    <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
                     <p>Andere locaties</p>
                     <p>Ook op andere plekken in Nederland zijn CoderDojo’s gestart! Geen plek meer in Delft? Meld je dan aan bij een van de andere CoderDojo’s in de buurt:</p>
                     <ul>

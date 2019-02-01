@@ -8,6 +8,10 @@ import { MenuComponent } from './component/MenuComponent';
 import { Container } from './element/Container';
 import { Content } from './element/Content';
 import {NextEditionPage} from './page/NextEditionPage';
+import { MentorPage } from './page/MentorPage';
+import { routes } from './routes';
+import { ExtraInfoPage } from './page/ExtraInfoPage';
+import { AboutUsPage } from './page/AboutUsPage';
 
 
 
@@ -26,8 +30,11 @@ export class App extends Component {
                     <Container>
                         <MenuComponent />
                         <Content>
-                            <Route exact path="/" component={ HomePage } />
-                            <Route exact path="/volgendeeditie" component={ NextEditionPage } />
+                            <Route exact path={routes.home.url} component={ HomePage } />
+                            <Route exact path={routes.nextEdition.url} component={ NextEditionPage } />
+                            <Route exact path={routes.mentors.url} component={ MentorPage } />
+                            <Route exact path={routes.extraInfo.url} component={ ExtraInfoPage } />
+                            <Route exact path={routes.aboutUs.url} component={ AboutUsPage } />
                         </Content>
                     </Container>
                 </React.Fragment>
