@@ -8,12 +8,8 @@ export const PageTitle = styled.h1`
     background-color: ${color.yellow.selective};
     color: ${color.white.white};
     font-family: 'Bebas Neue W01 Regular';
-    font-size: ${font.size.n0};
+    font-size: ${font.size.n1};
     line-height: ${font.line.n0};
     border-radius: 3px;
     box-shadow: 0 8px 6px -6px ${color.grey.charcoal};
-    
-    @media only screen and (min-width: ${breakpoint.md}px) {
-        font-size: ${font.size.n1};
-    }
 `;
