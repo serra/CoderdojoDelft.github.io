@@ -23,9 +23,9 @@ export const width = {
     content: 660
 };
 
-export const whitespace = [0, 4, 8, 16, 24];
+export const whitespace = [0, 4, 8, 16, 24, 32, 64];
 
 export const font = {
-    size: [24],
-    line: [1]
+    size: [48, 24, 20, 16],
+    line: [1, 1.3]
 };

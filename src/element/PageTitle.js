@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { color, font, whitespace } from '../style/variables';
+import { breakpoint, color, font, whitespace } from '../style/variables';
 
 export const PageTitle = styled.h1`
     padding: ${whitespace[2]}px;
@@ -9,4 +9,8 @@ export const PageTitle = styled.h1`
     font-family: 'Bebas Neue W01 Regular';
     font-size: ${font.size[0]}px;
     line-height: ${font.line[0]};
+    
+    @media only screen and (min-width: ${breakpoint.md}px) {
+        font-size: ${font.size[1]}px;
+    }
 `;
