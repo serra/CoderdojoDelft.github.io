@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { PageTitle } from '../element/PageTitle';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
-import { nextEdition } from '../content/next-edition';
+import { nextEditions } from '../content/next-edition';
 
 export class NextEditionPage extends Component {
     render() {
@@ -11,9 +11,9 @@ export class NextEditionPage extends Component {
             <Page>
                 <PageTitle>Volgende editie</PageTitle>
                 <PageBody>
-                    <h2>{nextEdition.date}</h2>
-                    <p>De volgende CoderDojo in Delft wordt georganiseerd op zaterdag 26 januari. De CoderDojo vindt plaats in OPEN – de vernieuwde plaats van Bibliotheek DOK Delft en VAK delft (Vesteplein 100). We zullen op de dag zelf de plaats duidelijk aangeven.</p>
-                    <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
+                    <h2>{nextEditions[0].date}</h2>
+                    <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEditions[0].date}. De CoderDojo vindt plaats in OPEN – de vernieuwde plaats van Bibliotheek DOK Delft en VAK delft (Vesteplein 100). We zullen op de dag zelf de plaats duidelijk aangeven.</p>
+                    <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEditions[0].registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
                     <h3>Wat gaan we doen?</h3>
                     <ul>
                         <li>Scratch</li>
@@ -38,7 +38,7 @@ export class NextEditionPage extends Component {
                     <p>We hebben een beperkt aantal laptops te leen. Laat het ons via het inschrijfformulier weten als je daarvan gebruik wilt maken.</p>
                     <h3>Inschrijven</h3>
                     <p>Voor deze Dojo hebben we maar beperkt plek! Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als de plekken voor deze CoderDojo bezet zijn, kun je je naam op de wachtlijst zetten, we nemen dan contact met je op zodra er een plek vrijkomt. Laat het ons dus ook weten als je verhinderd bent.</p>
-                    <iframe title="registration" src={nextEdition.registrationUrl} width="100%" height="500" frameBorder="0" marginWidth="5" marginHeight="5" />
+                    <iframe title="registration" src={nextEditions[0].registrationUrl} width="100%" height="500" frameBorder="0" marginWidth="5" marginHeight="5" />
                     <p><i>Is de Dojo vol, of kun je niet op die dag? Je kunt ook kijken of er plek is bij een CoderDojo in de buurt: <a href="http://www.coderdojo-westland.nl" target="_blank" rel="noopener noreferrer">CoderDojo Westland</a>, <a href="http://www.coderdojo-denhaag.nl" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a> of <a href="http://www.coderdojo-rotterdam.nl" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a>.</i></p>
                 </PageBody>
             </Page>

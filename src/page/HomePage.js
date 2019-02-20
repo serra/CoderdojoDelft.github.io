@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
 import { PageTitle } from '../element/PageTitle';
-import { nextEdition } from '../content/next-edition';
+import { nextEditions } from '../content/next-edition';
 import { routes } from '../routes';
 
 export class HomePage extends Component {
@@ -19,7 +19,7 @@ export class HomePage extends Component {
                     <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. OPEN (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
                     <h3>Activiteiten</h3>
                     <p>We organiseren een CoderDojo op:</p>
-                    <p><strong>{nextEdition.date}</strong></p>
+                    <p><strong>{nextEditions[0].date}</strong></p>
                     <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
                     <p>Andere locaties</p>
                     <p>Ook op andere plekken in Nederland zijn CoderDojo’s gestart! Geen plek meer in Delft? Meld je dan aan bij een van de andere CoderDojo’s in de buurt:</p>

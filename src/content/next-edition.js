@@ -1,9 +1,3 @@
-export const nextEdition = {
-    date: 'zaterdag 23 februari 2019',
-    registrationStart: 'zondag 10 februari2019',
-    registrationUrl: '//eventbrite.nl/tickets-external?eid=55768330578'
-};
-
 export const nextEditions = [
     {
         date: 'zaterdag 23 februari 2019',
