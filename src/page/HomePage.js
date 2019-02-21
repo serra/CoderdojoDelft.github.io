@@ -4,11 +4,23 @@ import { Link } from 'react-router-dom';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
 import { PageTitle } from '../element/PageTitle';
-import { nextEditions } from '../content/next-edition';
+import { nextEdition } from '../content/next-edition';
 import { routes } from '../routes';
 
 export class HomePage extends Component {
     render() {
+        let upcoming;
+
+        if (nextEdition) {
+            upcoming = (
+                <React.Fragment>
+                    <p>We organiseren een CoderDojo op:</p>
+                    <p><strong>{nextEdition.displayDate}</strong></p>
+                    <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
+                </React.Fragment>
+            );
+        }
+
         return (
             <Page>
                 <PageTitle>Welkom bij CoderDojo Delft!</PageTitle>
@@ -18,9 +30,8 @@ export class HomePage extends Component {
                     <p>Bij CoderDojo Delft leren kinderen programmeren, websites te bouwen, apps te ontwikkelen, programma’s te maken, games te maken en meer! We komen regelmatig bij elkaar om te leren programmeren, maar ook om andere deelnemers te ontmoeten. De CoderDojo is gratis bij te wonen omdat het volledig georganiseerd en begeleid wordt door vrijwilligers (mentoren).</p>
                     <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. OPEN (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
                     <h3>Activiteiten</h3>
-                    <p>We organiseren een CoderDojo op:</p>
-                    <p><strong>{nextEditions[0].date}</strong></p>
-                    <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
+                    {upcoming}
+                    <p>Voor andere data kijk <Link to={routes.agenda.url}>hier</Link>.</p>
                     <p>Andere locaties</p>
                     <p>Ook op andere plekken in Nederland zijn CoderDojo’s gestart! Geen plek meer in Delft? Meld je dan aan bij een van de andere CoderDojo’s in de buurt:</p>
                     <ul>
