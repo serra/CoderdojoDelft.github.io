@@ -31,10 +31,11 @@ export class HomePage extends Component {
                     <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. OPEN (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
                     <h3>Activiteiten</h3>
                     {upcoming}
-                    <p>Voor andere data kijk <Link to={routes.agenda.url}>hier</Link>.</p>
-                    <p>Andere locaties</p>
+                    <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
+                    <h3>Andere locaties</h3>
                     <p>Ook op andere plekken in Nederland zijn CoderDojo’s gestart! Geen plek meer in Delft? Meld je dan aan bij een van de andere CoderDojo’s in de buurt:</p>
                     <ul>
+                        <li><a href="http://www.coderdojo-zoetermeer.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Zoetermeer</a></li>
                         <li><a href="http://www.coderdojo-westland.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Westland</a></li>
                         <li><a href="http://www.coderdojo-denhaag.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a></li>
                         <li><a href="http://coderdojo-rotterdam.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a></li>

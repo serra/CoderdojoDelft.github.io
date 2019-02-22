@@ -12,7 +12,7 @@ export class NextEditionPage extends Component {
         return (
             <React.Fragment>
                 <h2>Op dit moment is er nog geen nieuwe dojo gepland.</h2>
-                <p>Voor andere data kijk <Link to={routes.agenda.url}>hier</Link>.</p>
+                <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
             </React.Fragment>
         );
     }
@@ -23,7 +23,7 @@ export class NextEditionPage extends Component {
                 <h2>{nextEdition.displayDate}</h2>
                 <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate}. De CoderDojo vindt plaats in OPEN – de vernieuwde plaats van Bibliotheek DOK Delft en VAK delft (Vesteplein 100). We zullen op de dag zelf de plaats duidelijk aangeven.</p>
                 <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
-                <p>Voor andere data kijk <Link to={routes.agenda.url}>hier</Link>.</p>
+                <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
                 <h3>Wat gaan we doen?</h3>
                 <ul>
                     <li>Scratch</li>
