@@ -28,7 +28,7 @@ export class HomePage extends Component {
                     <h2>Welkom bij CoderDojo Delft!</h2>
                     <p>CoderDojo Delft realiseert samen met enthousiaste vrijwilligers een platform waar kinderen van 8 tot 14 jaar in een technische stad als Delft de mogelijkheid krijgen om kennis te maken met een nog ontbrekend vak in het basisonderwijs en voortgezet onderwijs: programmeren.</p>
                     <p>Bij CoderDojo Delft leren kinderen programmeren, websites te bouwen, apps te ontwikkelen, programma’s te maken, games te maken en meer! We komen regelmatig bij elkaar om te leren programmeren, maar ook om andere deelnemers te ontmoeten. De CoderDojo is gratis bij te wonen omdat het volledig georganiseerd en begeleid wordt door vrijwilligers (mentoren).</p>
-                    <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. OPEN (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
+                    <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. <a href="https://opendelft.info/">OPEN</a> (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
                     <h3>Activiteiten</h3>
                     {upcoming}
                     <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
