@@ -9,19 +9,24 @@ export const routes = {
         title: 'Volgende editie',
         weight: 10
     },
+    agenda: {
+        url: '/agenda',
+        title: 'Agenda',
+        weight: 20
+    },
     mentors: {
         url: '/mentoren',
         title: 'Mentoren',
-        weight: 20
+        weight: 30
     },
     extraInfo: {
         url: '/extrainfo',
         title: 'Extra info',
-        weight: 30
+        weight: 40
     },
     aboutUs: {
         url: '/overons',
         title: 'Over ons',
-        weight: 40
+        weight: 50
     }
 };
