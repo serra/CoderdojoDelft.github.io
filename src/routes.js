@@ -28,5 +28,10 @@ export const routes = {
         url: '/overons',
         title: 'Over ons',
         weight: 50
+    },
+    continueProgramming: {
+        url: '/thuisverder',
+        title: 'Thuis verder',
+        weight: 60
     }
 };

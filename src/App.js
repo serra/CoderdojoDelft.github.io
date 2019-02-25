@@ -10,6 +10,7 @@ import { ExtraInfoPage } from './page/ExtraInfoPage';
 import { HomePage } from './page/HomePage';
 import { MentorPage } from './page/MentorPage';
 import { NextEditionPage } from './page/NextEditionPage';
+import { ContinueProgrammingPage } from './page/ContinueProgramming';
 import { routes } from './routes';
 import { GlobalStyle } from './style/global-style';
 import { AgendaPage } from './page/AgendaPage';
@@ -35,6 +36,7 @@ export class App extends Component {
                             <Route exact path={routes.mentors.url} component={ MentorPage } />
                             <Route exact path={routes.extraInfo.url} component={ ExtraInfoPage } />
                             <Route exact path={routes.aboutUs.url} component={ AboutUsPage } />
+                            <Route exact path={routes.continueProgramming.url} component= { ContinueProgrammingPage } />
                         </Content>
                     </Container>
                 </React.Fragment>
