@@ -41,7 +41,7 @@ export class HomePage extends Component {
                         <li><a href="http://coderdojo-rotterdam.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a></li>
                     </ul>
                     <h3>Thuis verder</h3>
-                    <p>Als je de CoderDojo leuk vond, kun je daar natuurlijk thuis verder gaan met programmeren! We hebben een verzameling websites voor je verzameld waarmee je aan de slag kunt. Klik  <Link to={routes.continueProgramming.url}>hier</Link>.</p>
+                    <p>Als je de CoderDojo leuk vond, kun je daar natuurlijk thuis verder gaan met programmeren! We hebben een verzameling websites voor je verzameld waarmee je aan de slag kunt. Klik  <Link to={routes.whatWeDo.url}>hier</Link>.</p>
                 </PageBody>
             </Page>
         );
