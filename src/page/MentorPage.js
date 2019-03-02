@@ -8,7 +8,7 @@ export class MentorPage extends Component {
     render() {
         return (
             <Page>
-                <PageTitle>Mentoren</PageTitle>
+                <PageTitle>Mentor worden?</PageTitle>
                 <PageBody>
                     <p>Zonder vrijwilligers geen CoderDojo! Er komt veel kijken bij de organisatie van een CoderDojo. We draaien op de inzet van vrijwilligers(mentoren) die graag hun kennis delen of hun tijd willen inzetten om kinderen verder te helpen.</p>
                     <p>Weet je veel van programmeren en vind jij het leuk om kennis over te dragen? Meld je dan aan als mentor! Ook als je niet direct technisch onderlegd bent, kun je veel voor ons doen:</p>

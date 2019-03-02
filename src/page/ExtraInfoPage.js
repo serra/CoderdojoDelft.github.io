@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
 import { PageTitle } from '../element/PageTitle';
+import { routes } from '../routes';
 
 export class ExtraInfoPage extends Component {
     render() {
@@ -30,7 +32,7 @@ export class ExtraInfoPage extends Component {
                     <h2>Wat moet ik meenemen?</h2>
                     <p>Elk kind moet een eigen laptop hebben, je kunt geen tablet zoals een iPad gebruiken.  Zorg er voor dat de laptop werkt, kan opladen en verbinding kan maken met draadloos internet! Zorg ook dat je kind de nodige wachtwoorden heeft om software te kunnen installeren of indien nodig instellingen te kunnen wijzigen. We hebben een klein aantal laptops te leen voor kinderen zonder laptop.</p>
                     <h2>Ik ben bij CoderDojo geweest en wil nu thuis verder, hoe ga ik te werk?</h2>
-                    <p>Je kunt thuis verder leren programmeren in het programma Scratch. Met Scratch programmeer je je eigen interactieve verhalen, spellen en animaties. Ga naar <a href="http://scratch.mit.edu">scratch.mit.edu</a> om een eigen project te starten. Kennismaken met HTML? Op <a href="http://www.liveweave.com" target="_blank" rel="noopener noreferrer">www.liveweave.com</a> of op <a href="http://neocities.org" target="_blank" rel="noopener noreferrer">neocities.org</a> kun je bouwen aan je pagina of website. Gebruik <a href="https://drive.google.com/a/dok.info/file/d/0B5ue9rJQ-LwBdHgxZWU0YkdyZjA/view">het stappenplan</a> om je eigen website te bouwen of bekijk thuis de <a href="https://drive.google.com/a/dok.info/file/d/0B5ue9rJQ-LwBd0kwaFR5bXpnMk0/view" target="_blank" rel="noopener noreferrer">presentatie over HTML</a> die is gegeven tijdens de CoderDojo op 31 oktober.</p>
+                    <p>In het overzicht van <Link to={routes.whatWeDo.url}>wat we doen</Link> staan ook tips over hoe je thuis aan de slag kunt.</p>
                 </PageBody>
             </Page>
         );
