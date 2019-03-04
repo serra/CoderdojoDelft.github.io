@@ -10,7 +10,7 @@ import { ExtraInfoPage } from './page/ExtraInfoPage';
 import { HomePage } from './page/HomePage';
 import { MentorPage } from './page/MentorPage';
 import { NextEditionPage } from './page/NextEditionPage';
-import { WhatWeDoPage } from './page/WhatWeDo';
+import { WhatWeDoPage } from './page/WhatWeDoPage';
 import { routes } from './routes';
 import { GlobalStyle } from './style/global-style';
 import { AgendaPage } from './page/AgendaPage';
