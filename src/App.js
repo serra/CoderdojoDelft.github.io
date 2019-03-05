@@ -10,6 +10,7 @@ import { ExtraInfoPage } from './page/ExtraInfoPage';
 import { HomePage } from './page/HomePage';
 import { MentorPage } from './page/MentorPage';
 import { NextEditionPage } from './page/NextEditionPage';
+import { WhatWeDoPage } from './page/WhatWeDoPage';
 import { routes } from './routes';
 import { GlobalStyle } from './style/global-style';
 import { AgendaPage } from './page/AgendaPage';
@@ -30,11 +31,12 @@ export class App extends Component {
                         <MenuComponent />
                         <Content>
                             <Route exact path={routes.home.url} component={ HomePage } />
+                            <Route exact path={routes.whatWeDo.url} component= { WhatWeDoPage } />
                             <Route exact path={routes.nextEdition.url} component={ NextEditionPage } />
                             <Route exact path={routes.agenda.url} component={ AgendaPage } />
-                            <Route exact path={routes.mentors.url} component={ MentorPage } />
-                            <Route exact path={routes.extraInfo.url} component={ ExtraInfoPage } />
                             <Route exact path={routes.aboutUs.url} component={ AboutUsPage } />
+                            <Route exact path={routes.extraInfo.url} component={ ExtraInfoPage } />
+                            <Route exact path={routes.mentors.url} component={ MentorPage } />
                         </Content>
                     </Container>
                 </React.Fragment>

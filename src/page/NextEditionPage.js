@@ -34,8 +34,11 @@ export class NextEditionPage extends Component {
                     <li>3D printer</li>
                 </ul>
                 <p>Kortom, je mag komen met elk project waar je eerder aan gewerkt hebt. Ben je nog nooit geweest? Dan hebben we opdrachten voor je klaarliggen en helpen we je op weg. Maar je mag natuurlijk ook zelf iets verzinnen. Misschien kun je alvast een karakter tekenen voor in een spel dat je wilt maken, of een filmpje zoeken voor een website die je wilt maken.</p>
+                <p><Link to={routes.whatWeDo.url}>Hier</Link> vind je meer details over wat je op een CoderDojo kunt doen.</p>
                 <h3>Waar?</h3>
                 <p>De CoderDojo vindt plaats bij OPEN (Vesteplein 100).</p>
+                <h3>Hoe laat?</h3>
+                <p>De CoderDojo is van 14:00 tot 16:00 uur. In deze tijd kun je zelf lekker aan de slag. Aan het einde maken we een rondje, zodat je ook aan de anderen kunt laten zien wat je gemaakt hebt!</p>
                 <h3>Ouders</h3>
                 <p>We vinden het erg fijn als ouders actief meehelpen, zeker voor de jongere kinderen (minimaal 8 jaar). Ouders kunnen ondertussen ook gebruik maken van de faciliteiten van de bibliotheek. Er is beperkt zitplek voor ouders aan de tafels van de kinderen.</p>
                 <h3>Wat moet ik meenemen?</h3>
@@ -49,7 +52,7 @@ export class NextEditionPage extends Component {
                 <h3>Inschrijven</h3>
                 <p>Voor deze Dojo hebben we maar beperkt plek! Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als de plekken voor deze CoderDojo bezet zijn, kun je je naam op de wachtlijst zetten, we nemen dan contact met je op zodra er een plek vrijkomt. Laat het ons dus ook weten als je verhinderd bent.</p>
                 <iframe title="registration" src={nextEdition.registrationUrl} width="100%" height="500" frameBorder="0" marginWidth="5" marginHeight="5" />
-                <p><i>Is de Dojo vol, of kun je niet op die dag? Je kunt ook kijken of er plek is bij een CoderDojo in de buurt: <a href="http://www.coderdojo-westland.nl" target="_blank" rel="noopener noreferrer">CoderDojo Westland</a>, <a href="http://www.coderdojo-denhaag.nl" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a> of <a href="http://www.coderdojo-rotterdam.nl" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a>.</i></p>
+                <p><i>Is de Dojo vol, of kun je niet op die dag? Je kunt ook kijken of er plek is bij een CoderDojo in de buurt: <a href="http://www.coderdojo-westland.nl" target="_blank" rel="noopener noreferrer">CoderDojo Westland</a>, <a href="http://www.coderdojo-zoetermeer.nl" target="_blank" rel="noopener noreferrer">CoderDojo Zoetermeer</a>,  <a href="http://www.coderdojo-denhaag.nl" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a> of <a href="http://www.coderdojo-rotterdam.nl" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a>.</i></p>
             </React.Fragment>
         );
     }

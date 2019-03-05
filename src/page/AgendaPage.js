@@ -28,7 +28,7 @@ export class AgendaPage extends Component {
                             })}
                     </ol>
                     <br></br>
-                    <p>Je kunt je vanaf de vrijdag 2 weken voor de Dojo <Link to={routes.nextEdition.url}>hier</Link> aanmelden.</p>
+                    <p>Je kunt je vanaf de zondag 2 weken voor de Dojo <Link to={routes.nextEdition.url}>hier</Link> aanmelden.</p>
                 </PageBody>
             </Page>
         );
