@@ -72,7 +72,7 @@ export const nextEditions = (() => {
 })();
 
 export const nextEdition = ((today) => {
-    return nextEditions.find((edition) => {
+    return nextEditions.filter((edition) => {
         return edition.date.getTime() > today.getTime();
-    });
+    }).shift();
 })(new Date());
