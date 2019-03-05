@@ -1,4 +1,4 @@
-export const nextEditions = (() => {
+export const nextEditions = ((today) => {
     const editions = [
         {
             date: new Date(2019, 1, 23),
@@ -60,7 +60,9 @@ export const nextEditions = (() => {
             registrationStart: 'zondag 8 december 2019',
             registrationUrl: '//eventbrite.nl/tickets-external?eid=57044489604'
         }
-    ].sort((a, b) => {
+    ].filter((edition) => {
+        return edition.date.getTime() > today.getTime();
+    }).sort((a, b) => {
         if (a.date.getTime() < b.date.getTime()) {
             return -1;
         }
@@ -69,10 +71,10 @@ export const nextEditions = (() => {
     });
 
     return editions;
-})();
+})(new Date());
 
 export const nextEdition = ((today) => {
-    return nextEditions.find((edition) => {
+    return nextEditions.filter((edition) => {
         return edition.date.getTime() > today.getTime();
-    });
+    }).shift();
 })(new Date());
