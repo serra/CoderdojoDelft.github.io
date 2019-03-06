@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
 import { PageTitle } from '../element/PageTitle';
+
 
 export class MentorPage extends Component {
     render() {
@@ -21,7 +21,7 @@ export class MentorPage extends Component {
                     <ul>
                         <li>Je kunt minimaal 6x per jaar aanwezig zijn bij een Dojo (deze organiseren we elke maand)</li>
                         <li>Je bent in bezit van een VOG of kan er een aanvragen. In de meeste gevallen vergoeden we de kosten.</li>
-                        <li>Je gaat akkoord met ons <a href="http://www.coderdojo-delft.nl/wp-content/uploads/2016/02/Protocol_Veiligheid.pdf" target="_blank" rel="noopener noreferrer">Protocol Veiligheid CoderDojo Nederland</a> en onze <a href="http://www.coderdojo-delft.nl/wp-content/uploads/2016/02/Vrijwilligers_Overeenkomst.pdf" target="_blank" rel="noopener noreferrer">Vrijwilligers Overeenkomst</a></li>
+                        <li>Je gaat akkoord met ons <a href="/doc/Protocol_Veiligheid.pdf" target="_blank" rel="noopener noreferrer">Protocol Veiligheid CoderDojo Nederland</a> en onze <a href="/doc/Vrijwilligers_Overeenkomst.pdf" target="_blank" rel="noopener noreferrer">Vrijwilligers Overeenkomst</a></li>
                     </ul>
                     <h3>Aanmelden</h3>
                     <p>Heb jij ook nog eens veel geduld en ben je kindvriendelijk?</p>
