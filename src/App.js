@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 import { HeaderComponent } from './component/HeaderComponent';
 import { MenuComponent } from './component/MenuComponent';
@@ -19,7 +19,7 @@ import { AgendaPage } from './page/AgendaPage';
 export class App extends Component {
     render() {
         return (
-            <Router>
+            <HashRouter>
                 <React.Fragment>
                     <GlobalStyle />
                     <Container>
@@ -40,7 +40,7 @@ export class App extends Component {
                         </Content>
                     </Container>
                 </React.Fragment>
-            </Router>
+            </HashRouter>
         );
     }
 }
