@@ -6,3 +6,7 @@ script:
 branches:
   except:
   - master
+deploy:
+  - yarn run deploy
+  on:
+    branch: develop  
