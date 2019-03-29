@@ -6,3 +6,8 @@ script:
 branches:
   except:
   - master
+deploy:
+  - provider: script
+    script: npm run deploy
+    on:
+      branch: develop
