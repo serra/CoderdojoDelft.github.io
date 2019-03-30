@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/CoderdojoDelft/CoderdojoDelft.github.io.svg?branch=develop)][Travis-CI]
+
 # Coder Dojo Delft website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App].
 
 This project uses:
 
@@ -24,3 +26,23 @@ npm start
 ```
 
 Our beautiful website will open at http://localhost:3000/.
+
+## Deploying
+
+The website is hosted on Github Pages.
+Every commit to the `develop` branch is automatically built 
+and deployed by [Travis-CI].
+
+The website can be deployed manually by running:
+
+```
+npm run deploy
+```
+
+This will build the website, 
+commit the build output to the master branch, 
+and push the master branch to Github.
+
+ [Travis-CI]: https://travis-ci.org/CoderdojoDelft/CoderdojoDelft.github.io
+ [Create React App]: https://github.com/facebook/create-react-app
+
