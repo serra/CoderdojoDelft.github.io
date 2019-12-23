@@ -19,9 +19,11 @@ export class MentorPage extends Component {
                     </ul>
                     <h3>Wat vragen we van een vrijwilliger?</h3>
                     <ul>
-                        <li>Je kunt minimaal 6x per jaar aanwezig zijn bij een Dojo (deze organiseren we elke maand)</li>
+                        <li>Je hebt affiniteit met programmeren, maar hoeft zeker geen programmeur te zijn!</li>
+                        <li>Je kunt met enige regelmaat aanwezig zijn bij een Dojo (deze organiseren we elke maand, meestal op de 4e zaterdag)</li>
                         <li>Je bent in bezit van een VOG of kan er een aanvragen. In de meeste gevallen vergoeden we de kosten.</li>
                         <li>Je gaat akkoord met ons <a href="/doc/Protocol_Veiligheid.pdf" target="_blank" rel="noopener noreferrer">Protocol Veiligheid CoderDojo Nederland</a> en onze <a href="/doc/Vrijwilligers_Overeenkomst.pdf" target="_blank" rel="noopener noreferrer">Vrijwilligers Overeenkomst</a></li>
+                        <li>Vanaf januari 2020 vallen we onder DOK Delft. Voor meer informatie, zie de <a href="https://www.dok.info/over-dok/vrijwilligers.html">website van DOK Delft</a>.</li>
                     </ul>
                     <h3>Aanmelden</h3>
                     <p>Heb jij ook nog eens veel geduld en ben je kindvriendelijk?</p>
