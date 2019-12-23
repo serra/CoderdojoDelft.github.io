@@ -17,7 +17,7 @@ export class AgendaPage extends Component {
                     <p>
                         Coderdojo Delft wordt georganiseerd op de 4e zaterdag van de maand.
                         Af en toe wijken we hier vanaf als dit door feestdagen anders niet uitkomt.
-                        In de zomervakantie is er geen Dojo.
+                        In de zomervakantie komen de Dojo's mogelijk te vervallen.
                     </p>
                     <p>Hieronder vind je een overzicht van de komende edities:</p>
                     <ol>
